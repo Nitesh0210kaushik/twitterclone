@@ -1,0 +1,73 @@
+.navbar-container {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Navbar Logo */
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-logo span {
+    color: #1da1f2;
+    /* Twitter blue color */
+}
+
+
+/* Navbar Menu */
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Navbar Menu Items */
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.tweet-button {
+    background-color: #1da1f2;
+    /* Twitter blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+/* Logout Button */
+
+.logout-button {
+    background-color: #dc3545;
+    /* Bootstrap danger color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}

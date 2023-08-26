@@ -1,0 +1,64 @@
+.tweet-form-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    margin-top: 40px;
+    border-bottom: 1px solid #e1e8ed;
+    /* border: 2px solid black; */
+}
+
+.tweet-profile-pic {
+    flex: 0 0 auto;
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #e1e8ed;
+    /* Add background image or profile picture here */
+    background-size: cover;
+    background-position: center;
+}
+
+.tweet-input {
+    flex: 1 1 auto;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd6dd;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+.tweet-action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.tweet-button {
+    padding: 8px 16px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Media query for responsiveness */
+
+@media (max-width: 600px) {
+    .tweet-form-container {
+        flex-direction: column;
+        padding: 12px;
+    }
+    .tweet-profile-pic {
+        margin-right: 0;
+        margin-bottom: 12px;
+        align-self: center;
+    }
+}

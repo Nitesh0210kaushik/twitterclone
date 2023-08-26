@@ -1,0 +1,87 @@
+.tweet {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    width: 300px;
+}
+
+.tweet-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.tweet-username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tweet-text {
+    margin-bottom: 10px;
+}
+
+.tweet-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.tweet-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.save-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.edit-button {
+    background-color: #3498db;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f39c12;
+    color: white;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.tweet-button:hover {
+    opacity: 0.8;
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .tweet {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tweet-avatar {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .tweet-content {
+        width: 100%;
+    }
+    .tweet-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

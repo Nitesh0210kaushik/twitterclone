@@ -1,0 +1,72 @@
+/* Firstpage.css */
+
+.twitter-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* height: 100vh; */
+    height: 80vh;
+}
+
+.twitter-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.twitter-logo {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.twitter-text {
+    flex: 1;
+}
+
+.twitter-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.twitter-text h2 {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #657786;
+}
+
+.twitter-auth-buttons {
+    margin-top: 20px;
+}
+
+.twitter-auth-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.already-have-account {
+    margin-top: 16px;
+    color: #657786;
+    font-size: 14px;
+}
+
+.already-have-account p {
+    margin: 0;
+}
+
+.already-have-account a {
+    color: #1da1f2;
+    text-decoration: none;
+}
